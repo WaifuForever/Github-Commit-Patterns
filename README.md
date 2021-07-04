@@ -55,3 +55,25 @@ Let's split commits in 6 differents types:
   ```
   git commit -m "issue - 001 sending duplicated user_id back to the client"
   ```
+  
+  Every unsolved issue needs to be documented somewhere (readme.md/commented in the file)
+  
+  if you still not solve this issue and want to send another commits you should do as shown:
+  
+  ```
+  git commit -m "add - user controller delete function [001]"
+  ```
+  
+  always inform if the documented issue is solved or not in the current commit
+  
+  if all documented issues are solved you can type empty squarebrackets [] or just ommit them
+
+  ```
+  git commit -m "add - user controller delete function []"
+  ```
+  
+  also right:
+  ```
+  git commit -m "add - user controller delete function"
+  ```
+  Never delete a documented issue from the file where you are store them, this is way you will always know which fixed or unfixed issues are in the commit
