@@ -10,4 +10,5 @@ If you read what i wrote and want to help me, you can send me a suggestion *open
   * Grammar and spelling corrections
   * Improvement of source referencing (images, references, etc.)
   * Incorrect, inconsistent or incomplete information fixes
-  * Improving the suggested pattern
+  * Improvement of the suggested pattern
+  * Add new sections
