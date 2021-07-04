@@ -37,7 +37,7 @@ Let's split commits in 5 differents types:
   When you make minor changes in the code, like change variables name, change loop logic
 
   ```
-  git commit -m "fix - confirm password not showing"
+  git commit -m "update - page url"
   ```
   
 ### Refactor
@@ -65,8 +65,7 @@ Let's split commits in 5 differents types:
   git commit -m "add - user controller delete function [001]"
   ```
   
-  always inform if the documented issue is solved or not in the current commit
-  
+  always inform if the documented issue is solved or not in the current commit  
   if all documented issues are solved you can type empty square brackets [] or just omit them
 
   ```
@@ -77,11 +76,15 @@ Let's split commits in 5 differents types:
   ```
   git commit -m "add - user controller delete function"
   ```
+  
   Never delete a documented issue from the file where you are store them, this is way you will always know which fixed or unfixed issues are in the commit
 
-##Conventions
+## Conventions
   Always use Present-continuous
-
+  ```
+  git commit -m "update - using cors"
+  ```
+  
   Using text inside commit:
   ```
   git commit -m "add - 'admin/index' route"
