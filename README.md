@@ -78,10 +78,11 @@ Let's split commits in 5 differents types:
   git commit -m "add - user controller delete function"
   ```
   Never delete a documented issue from the file where you are store them, this is way you will always know which fixed or unfixed issues are in the commit
-  
-Always use Present-continuous
 
-Using text inside commit:
+##Conventions
+  Always use Present-continuous
+
+  Using text inside commit:
   ```
   git commit -m "add - 'admin/index' route"
   ```
