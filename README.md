@@ -34,15 +34,13 @@ Let's split commits in 5 differents types:
   ```
   
 ### Update
-  When you make minor changes in the code, like change variables name, change loop logic
-
+  When you make minor changes in the code, such as changing variables name, changing loop logic
   ```
   git commit -m "update - page url"
   ```
   
 ### Refactor
-  When you make major changes in the code, like remake all logic in certain file or feature;
-  
+  When you make major changes in the code, such as remaking all the logic in particular file or feature;
   ```
   git commit -m "refactor - profile page layout"
   ```
@@ -83,6 +81,10 @@ Let's split commits in 5 differents types:
   Always use Present-continuous
   ```
   git commit -m "update - using cors"
+  ```
+  
+  ```
+  git commit -m "update - sending manga status back to the client"
   ```
   
   Using text inside commit:
