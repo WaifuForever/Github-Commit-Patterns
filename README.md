@@ -8,9 +8,6 @@ Principles and patterns intended to standardize github commits.
 
 ## Commmit Pattern:
 
-Always use Present-continuous
-
-
 Let's split commits in 5 differents types:
 
 ### Fix
@@ -50,7 +47,7 @@ Let's split commits in 5 differents types:
   git commit -m "refactor - profile page layout"
   ```
 
-## Documentating issues
+## Documenting issues
   When you identify a issue in the code and you're not capable do solve this in the moment.
   Every unsolved issue needs to be documented somewhere, you can keep this inside readme.md or another file.   
  
@@ -70,7 +67,7 @@ Let's split commits in 5 differents types:
   
   always inform if the documented issue is solved or not in the current commit
   
-  if all documented issues are solved you can type empty squarebrackets [] or just ommit them
+  if all documented issues are solved you can type empty square brackets [] or just omit them
 
   ```
   git commit -m "add - user controller delete function []"
@@ -81,3 +78,11 @@ Let's split commits in 5 differents types:
   git commit -m "add - user controller delete function"
   ```
   Never delete a documented issue from the file where you are store them, this is way you will always know which fixed or unfixed issues are in the commit
+  
+Always use Present-continuous
+
+Using text inside commit:
+  ```
+  git commit -m "add - 'admin/index' route"
+  ```
+
