@@ -1,34 +1,34 @@
 # Github-Commit-Patterns
 Principles and patterns intended to standardize github commits.
 
-##Why and when you should commit changes?
+## Why and when you should commit changes?
 
 
-##What are the benefits of standardizing commits?
+## What are the benefits of standardizing commits?
 
-##Commmit Pattern:
+## Commmit Pattern:
 
 Always use Past-continuous
 
 
 Let's split commits in 6 differents types:
 
-###Fix
+### Fix
   When you solve a previously or not identified issue
   
-###Add
+### Add
   When you add a new feature into your project
   
-###Remove
+### Remove
   When you remove a feature, comments or function from your project
   
-###Update
+### Update
   When you make minor changes in the code, like change variables name, change loop logic
   
-###Refactor
+### Refactor
   When you make major changes in the code, like remake all logic in certain file or feature;
   
 
-###Issue
+### Issue
   When you identify a issue in the code and you're not capable do solve this in the moment.
   
