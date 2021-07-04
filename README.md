@@ -77,6 +77,45 @@ Let's split commits in 5 differents types:
   
   Never delete a documented issue from the file where you are store them, this is way you will always know which fixed or unfixed issues are in the commit
 
+## On progress commits
+  If you are adding a new feature into your project, and you couldn't finish it. You can register your progress inside the commit as shown:
+  
+  ```
+  git commit -m "add - user middleware valid delete 1/?"
+  ```
+  
+  ```
+  git commit -m "add - user middleware valid delete 2/?"
+  ```
+  
+  ```
+  git commit -m "add - user middleware valid delete 3/3"
+  ```
+  
+  As you don't know how many steps will take for finish this, you can keep increasing the step value till you finish
+  
+  Let's suppose you're struggling to implemeting a certain function and don't want to delay the project development. 
+  You can commit the unfinished feature as complete and add a issue.
+  
+  ```
+  git commit -m "add - user middleware valid delete 1/?"
+  ```
+  Commiting unfinished feature as complete.
+  ```
+  git commit -m "add - user middleware valid delete 2/2"
+  ```
+  
+  Adding a issue.
+  ```
+  {
+  "003" : user middleware valid delete is not validating req.query"
+  }
+  
+  ```
+  
+  Please remember to report the unresolved issue in all upcoming commits until you have this fixed.
+
+
 ## Conventions
   Always use Present-continuous
   ```
