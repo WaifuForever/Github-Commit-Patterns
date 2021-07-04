@@ -92,7 +92,7 @@ Let's split commits in 5 differents types:
   git commit -m "add - user middleware valid delete 3/3"
   ```
   
-  As you don't know how many steps will take for finish this, you can keep increasing the step value till you finish
+  Since you don't know how many steps it will take to finish this, you can keep increasing the step value until you're done.
   
   Let's suppose you're struggling to implemeting a certain function and don't want to delay the project development. 
   You can commit the unfinished feature as complete and add a issue.
