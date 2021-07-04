@@ -8,7 +8,7 @@ Principles and patterns intended to standardize github commits.
 
 ## Commmit Pattern:
 
-Always use Past-continuous
+Always use Present-continuous
 
 
 Let's split commits in 6 differents types:
@@ -16,7 +16,7 @@ Let's split commits in 6 differents types:
 ### Fix
   When you solve a previously or not identified issue
   ```
-  git commit -m "fix: user controller index function"
+  git commit -m "fix - user controller index function"
   ```
  
   
