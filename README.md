@@ -11,7 +11,7 @@ Principles and patterns intended to standardize github commits.
 Always use Present-continuous
 
 
-Let's split commits in 6 differents types:
+Let's split commits in 5 differents types:
 
 ### Fix
   When you solve a previously or not identified issue
@@ -50,13 +50,17 @@ Let's split commits in 6 differents types:
   git commit -m "refactor - profile page layout"
   ```
 
-### Issue
+## Documentating issues
   When you identify a issue in the code and you're not capable do solve this in the moment.
+  Every unsolved issue needs to be documented somewhere, you can keep this inside readme.md or another file.   
+ 
+  Example:
   ```
-  git commit -m "issue - 001 sending duplicated user_id back to the client"
-  ```
+  {
+  "001" : sending duplicated user_id back to the client"
+  }
   
-  Every unsolved issue needs to be documented somewhere (readme.md/commented in the file)
+  ```
   
   if you still not solve this issue and want to send another commits you should do as shown:
   
