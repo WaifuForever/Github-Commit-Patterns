@@ -28,11 +28,11 @@ Let's split commits in 5 differents types:
   
   All remove commits refer to a remove action, you just need to detail what you deleted from the code.
    ```
-  git commit -m "remove - user controller like function"
+  git commit -m "remove - like function"
   ```
   
   ```
-  git commit -m "remove - user controller blank spaces"
+  git commit -m "remove - blank spaces inside list function"
   
   ```
  
