@@ -44,11 +44,11 @@ Let's split commits in 5 differents types:
   You can especify your action adding a verb on it 
   
   ```
-  git commit -m "update: sending custom return for empty list"
+  git commit -m "update: send custom return for empty list"
   ```
   
   ```
-  git commit -m "update: renaming user products property"
+  git commit -m "update: rename user products property"
   ```
   
 ### Refactor
@@ -64,7 +64,7 @@ Let's split commits in 5 differents types:
   Example:
   ```
   {
-  "001" : sending duplicated user_id back to the client"
+  "001" : send duplicated user_id back to the client"
   }
   
   ```
@@ -89,11 +89,11 @@ Let's split commits in 5 differents types:
   
   Never delete a documented issue from the file where you are store them, this is way you will always know which fixed or unfixed issues are in the commit
 
-## On progress commits
+## On progress commits // Broken features
   If you are adding a new feature into your project, and you couldn't finish it. You can register your progress inside the commit as shown:
   
   ```
-  git commit -m "add: user middleware valid delete 1/?"
+  git commit -m "add: user middleware valid delete !!"
   ```
   
   ```
@@ -103,24 +103,22 @@ Let's split commits in 5 differents types:
   ```
   git commit -m "add: user middleware valid delete 3/3"
   ```
-  
-  Since you don't know how many steps it will take to finish this, you can keep increasing the step value until you're done.
-  
+    
   Let's suppose you're struggling to implemeting a certain function and don't want to delay the project development. 
-  You can commit the unfinished feature as complete and add a issue.
+  You can commit the unfinished/broken feature as complete and add a issue.
   
   ```
-  git commit -m "add: user middleware valid delete 1/?"
+  git commit -m "add: user middleware valid delete !!"
   ```
   Commiting unfinished feature as complete.
   ```
-  git commit -m "add: user middleware valid delete 2/2"
+  git commit -m "fix: user middleware valid delete"
   ```
   
   Adding a issue.
   ```
   {
-  "003" : user middleware valid delete is not validating req.query"
+  "003" : user middleware valid delete does not validate req.query"
   }
   
   ```
@@ -129,13 +127,13 @@ Let's split commits in 5 differents types:
 
 
 ## Conventions
-  Always use Present-continuous
+  Always use Present, ask "what does this commit do?" then read the answer: "update: product findone() middleware"
   ```
-  git commit -m "update: using cors":
+  git commit -m "update: use cors":
   ```
   
   ```
-  git commit -m "update: sending manga status back to the client"
+  git commit -m "update: send manga status back to the client"
   ```
   
   Using text inside commit:
